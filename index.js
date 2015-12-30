@@ -21,5 +21,10 @@ function create(path) {
 }
 
 module.exports = create(path);
-module.exports.win32 = create(path.win32);
-module.exports.posix = create(path.posix);
+
+if (path.win32) {
+	module.exports.win32 = create(path.win32);
+}
+if (path.posix) {
+	module.exports.posix = create(path.posix);
+}

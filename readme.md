@@ -33,6 +33,8 @@ All functions accept partial input, and return thunks for the corresponding [`pa
 ### pathThunk.win32
 ### pathThunk.posix
 
+*Node 0.12 and higher only*
+
 Both have identical API's to `pathThunk`, but they always return `windows` or `posix` paths (respectively). This mirrors the [corresponding items](https://nodejs.org/api/path.html#path_path_win32) from the `path` module.
 
 ## License
