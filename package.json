@@ -1,6 +1,6 @@
 {
   "name": "path-thunk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Thunkified versions of popular `path` module functions.",
   "license": "MIT",
   "repository": "jamestalmage/path-thunk",
